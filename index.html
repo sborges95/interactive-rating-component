@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Rating Component</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"> 
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/28cd032968.js" crossorigin="anonymous"></script>
+   
   </head>
   <body>
     <div class="rating-box">
+        <div>
+            <i class="fas fa-star star"></i>
+        </div>
       <div class="heading">
         <h1>How did we do?</h1>
       </div>
       <div class="content">
           <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
       </div>
-      <div class="rating">
-        <p class="one">1</p>
-        <p class="two">2</p>
-        <p class="three">3</p>
-        <p class="four">4</p>
-        <p class="five">5</p>
+      <div class="rating-numbers-flex">
+        <button type="button" class="rating-numbers">1</button>
+        <button class="rating-numbers">2</button>
+        <button class="rating-numbers">3</button>
+        <button class="rating-numbers">4</button>
+        <button class="rating-numbers">5</button>
       </div>
-      <div class="submit">
-        <button>SUBMIT</button>
+      <div >
+        <button class="submit-button">SUBMIT</button>
       </div>
     </div>
   </body>

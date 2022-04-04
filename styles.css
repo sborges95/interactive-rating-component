@@ -1,0 +1,71 @@
+body {
+    font-family: Overpass, sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.rating-box {
+    background-color: hsl(213, 19%, 18%);
+    background-image: linear-gradient(hsl(213, 20%, 18%), hsl(214, 65%, 9%));
+    border-radius: 25px;
+    padding: 3%;
+    max-width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.star {
+    color:hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, 0.103);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+}
+
+.content {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 40px;
+}
+
+.rating-numbers-flex {
+    display: flex;
+}
+
+.rating-numbers {
+    color: hsl(217, 12%, 63%);
+    background-color: hsla(216, 12%, 54%, 0.103);
+    border: none;
+    padding: 20px 25px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.rating-numbers:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit-button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    border: none;
+    font-family: Overpass, sans-serif;
+    font-weight: 7400;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.submit-button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
